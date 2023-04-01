@@ -815,12 +815,13 @@ img {
   }
   
   .sectionvideo{
-    height: 400px;
+    height: 100%;
     width: 100%;
     padding: 0;
     
   }
   .videodiv{
+    margin-left: 50px;
     margin-bottom: 200px;
   }
   .hometext_heading1  {
