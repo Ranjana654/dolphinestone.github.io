@@ -809,7 +809,7 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .mainheading{
     display:block ;
   }
