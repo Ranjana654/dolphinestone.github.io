@@ -813,7 +813,9 @@ img {
   .mainheading{
     display:block ;
   }
-  
+  .aboutheading{
+    font-weight: 60px;
+  }
  .sectionvideo{
     display: none;
     
