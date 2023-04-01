@@ -803,10 +803,36 @@ img {
   background-color: var(--text-color-light);
 }
 
+.sectionvideo{
+  height: 100vh;
+}
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
+  .mainheading{
+    display:block ;
+  }
+  
+  .sectionvideo{
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    
+  }
+  .videodiv{
+    margin-bottom: 200px;
+  }
+  .hometext_heading1  {
+    display: none;
+  } 
+  .hometext_heading2{
+    display: none;
+  }
+  .hometext_paragraph{
+    display: none;
+  }
+  
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -853,6 +879,13 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
+  .sectionvideo{
+    height: 100%;
+  }
+  .mainheading{
+    display: none ;
+  }
+  
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -1031,11 +1064,24 @@ img {
   }
 }
 
+.hometext_heading1{
+  position: absolute;
+  top:300px;
+  left:400px;
+}
 
-
-/* For large devices */
-@media screen and (min-width: 1024px) {
-
+.hometext_heading2{
+  position: absolute;
+ top: 400px;
+  left:390px;
+}
+.hometext_paragraph{
+  position: absolute;
+  top: 200px;
+  left:350px;
+}
+@media screen and (min-width: 768px) {
+  
   .header,
   .main,
   .footer__container {
@@ -1086,7 +1132,7 @@ img {
     width: 460px;
   }
 
-
+  
 }
 
 /* cards */
@@ -1095,4 +1141,11 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 60px;
+  
 }
+
+
+
+
+
+
