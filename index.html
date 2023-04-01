@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--==================== META ====================-->
+    <meta
+      name="description"
+      content="Personal page of Ranjana Rajput, Fashion Designer"
+    />
+    <meta name="keywords" content="Ranjana Rajput, Fashion Designer" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ranjana Rajput - Fashion Designer</title>
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--==================== FAVICON ====================-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/general/favicon.png"
+      type="image/png"
+    />
+    <!--==================== GOOGLE ANALYTICS ====================-->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-9EB07NXS50"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-9EB07NXS50");
+    </script>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header bg-dark p-3 " id="header" >
+      <nav class="nav container ">
+        
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid  ">
+            <a href="#home" class="nav__logo text-light me-5">Dolphinstone</a>
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link text-light me-5 ">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link text-light me-5">
+                <i class="uil uil-atom nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#testimonials" class="nav__link text-light me-5">
+                <i class="uil uil-book-alt nav__icon"></i> Testimonials
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link text-light me-5">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+
+            
+            <li class="nav__item">
+              <a href="#contact" class="nav__link text-light">
+                <i class="uil uil-message nav__icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme text-light"  id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class=" section bg-dark mt-4" id="home" style="height: 100vh;">
+        <div class="container-fluid">
+          <div class=" row d-flex">
+            <div class="col-lg-4">
+              <div
+                class="home__data ms-5 me-5 position-relative"
+                style="z-index: 10"
+              >
+              <div class="d-flex mt-5">
+              
+              <p class="text-light mb-5" style="font-weight: 600; font-size: 12px; position: absolute; left: 280px; top: 100px;" >RANJAVA&nbsp;RAJPUT</p>
+              </p>
+              </div>
+                
+                <h1
+                  class="home__title postitive-absolute  ms-5 text-light ms-auto float-end " style="position: absolute;
+                  left:350px; top:160px;"
+                >
+                  Recreating
+                </h1>
+                <h1 class="home__title text-light postitive-absolute float-end" style="position: absolute; top:250px; left:290px">
+                  Fashion
+                </h1>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="home__img mt-4" style="z-index: 0">
+                <video width="900" autoplay>
+                  <source src="assets/img/video/ffffff.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--================= my portfolio and cards ================= -->
+
+      <section class="container-fluid" id="portfolio">
+        <h2 class="section__title mb-5 mt-5">My Portfolio</h2>
+        <div class="row">
+          <div class="col-lg-4 d-flex justify-content-center">
+            <div class="card" style="width: 25rem; border-style: none">
+              <a href="/celestial.html"
+                ><img
+                style="height: 380px; width: 412px;"
+                  src="assets/img/cards/Celestial .JPG "
+                  class="card-img-top img-thumnail"
+                  alt="..."
+              /></a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                  This collection draws inspiration from the zodiac signs. Each product in
+this collection incorporate specific zodiac design elements, colors, and
+personality traits while retaining a sense of mysticism and wonder.
+                </p>
+                <a
+                  href="/celestial.html"
+                  class="btn btn-sm btn-outline-dark d-flex justify-content-center"
+                  style="border-radius: 0"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center">
+            <div class="card" style="width: 25rem; border-style: none">
+              <a href="/modanow.html">
+                <img
+                style="height: 380px; width: 412px;"
+                  src="assets/img/cards/Moda now.PNG"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                  ModaNow's "Nature's Palette". Featuring natural materials and flowing
+silhouettes, the collection evokes movement and grace.
+                </p>
+                <a
+                  href="/modanow.html"
+                  class="btn btn-sm btn-outline-dark d-flex justify-content-center"
+                  style="border-radius: 0"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center">
+            <div class="card" style="width: 25rem; border-style: none">
+              <a href="/siren.html"
+                ><img
+                style="height: 380px; width: 412px;"
+                  src="assets/img/cards/Siren.PNG"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                  vintage Hollywood glam-inspired collection that captures the
+elegance, glamour, and sophistication of Old Hollywood.
+                </p>
+                <a
+                  href="/siren.html"
+                  class="btn btn-sm btn-outline-dark d-flex justify-content-center"
+                  style="border-radius: 0"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-4 d-flex justify-content-center">
+            <div class="card" style="width: 25rem; border-style: none">
+              <a href="/fibnfitty.html"
+                ><img
+                style="height: 380px; width: 412px;"
+                  src="assets/img/cards/Bangles & sandals.png"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                  This collection draws inspiration from the graffiti. The goal is to create
+pieces that have a strong message, promoting the concept of
+accepting oneself and being comfortable in one's own skin.
+                </p>
+                <a
+                  href="/fibnfitty.html"
+                  class="btn btn-sm btn-outline-dark d-flex justify-content-center"
+                  style="border-radius: 0"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center">
+            <div class="card" style="width: 25rem; border-style: none">
+              <a href="/nextforecourt.html"
+                ><img
+                style="height: 380px; width: 412px;"
+                  src="assets/img/cards/The next forecourt .JPG"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                  The next forecourt captures the edgy and futuristic aesthetic of the
+                  popular video game Cyberpunk 2077 
+                </p>
+                <a
+                  href="/nextforecourt.html"
+                  class="btn btn-sm btn-outline-dark d-flex justify-content-center"
+                  style="border-radius: 0"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center">
+            <div class="card" style="width: 25rem; border-style: none">
+              <a href="/sunburst.html"
+                ><img
+                style="height: 380px; width: 412px;"
+                  src="assets/img/cards/Sunburst style .PNG"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                  The Sunburst Style Collection is a vibrant fashion line inspired by the sun and oranges, capturing the spirit of summertime with bold and
+playful designs that are both fashionable and functional. 
+                </p>
+                <a
+                  href="/sunburst.html"
+                  class="btn btn-sm btn-outline-dark d-flex justify-content-center"
+                  style="border-radius: 0"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- vvav -->
+        <!-- <div class="container img-grid">
+            <div class="card" style="width: 15rem; border-style: none; ">
+                <a href=""><img src="assets/img/cards/Celestial .JPG " class="card-img-top img-thumnail"  style="height:200px;width:400px"  alt="..."></a>
+                <div class="card-body text-center">
+                  
+                  <p class="card-text" style="font-size: 12px;  opacity: 0.9;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos fuga minima!.</p>
+                  <a href="" class="btn btn-sm btn-outline-dark d-flex justify-content-center" style="border-radius: 0;">Read More</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 15rem; border-style: none; ">
+               <a href="/modanow.html"> <img src="assets/img/cards/Moda now.PNG" class="card-img-top" style="height:200px;width:400px" alt="..."></a>
+                <div class="card-body text-center">
+                  <p class="card-text" style="font-size: 12px;  opacity: 0.9;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos fuga minima!.</p>
+                  <a href="/modanow.html" class="btn btn-sm btn-outline-dark d-flex justify-content-center" style="border-radius: 0;">Read More</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 15rem; border-style: none; ">
+                <a href="/siren.html"><img src="assets/img/cards/Siren.PNG" class="card-img-top" style="height:200px;width:400px" alt="..."></a>
+                <div class="card-body text-center">
+                  
+                  <p class="card-text" style="font-size: 12px;  opacity: 0.9;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos fuga minima!.</p>
+                  <a href="/siren.html" class="btn btn-sm btn-outline-dark d-flex justify-content-center" style="border-radius: 0;">Read More</a>
+                </div>
+              </div>
+            
+              <div class="card" style="width: 15rem; border-style: none; ">
+                <a href="/fibnfitty.html"><img src="assets/img/cards/Bangles & sandals.png" class="card-img-top" style="height:200px;width:400px" alt="..."></a>
+                <div class="card-body text-center">
+                  
+                  <p class="card-text" style="font-size: 12px;  opacity: 0.9;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos fuga minima!.</p>
+                  <a href="/fibnfitty.html" class="btn btn-sm btn-outline-dark d-flex justify-content-center" style="border-radius: 0;">Read More</a>
+                </div>
+              </div>
+              
+              <div class="card" style="width: 15rem; border-style: none; ">
+               <a href=""> <img src="assets/img/cards/The next forecourt .JPG" class="card-img-top" style="height:200px;width:400px" alt="..."></a>
+                <div class="card-body text-center">
+                  
+                  <p class="card-text" style="font-size: 12px;  opacity: 0.9; " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos fuga minima!.</p>
+                  <a href="#" class="btn btn-sm btn-outline-dark d-flex justify-content-center" style="border-radius: 0;">Read More</a>
+                </div>
+              </div>            
+              
+              <div class="card" style="width: 15rem; border-style: none; ">
+                <a href="/sunburst.html"><img src="assets/img/cards/Sunburst style .PNG"  class="card-img-top" style="height:200px;width:400px" alt="..."></a>
+                <div class="card-body text-center">
+                  
+                  <p class="card-text" style="font-size: 12px;  opacity: 0.9;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos fuga minima!.</p>
+                  <a href="/sunburst.html" class="btn btn-sm btn-outline-dark d-flex justify-content-center" style="border-radius: 0;">Read More</a>
+                </div>
+              </div>
+              
+          
+        </div> -->
+      </section>
+      <!-- ==========================================testimonials========================= -->
+
+      <section class="bg-dark" id="testimonials">
+        <div class="p-5">
+          <h1 class="section__title mb-5" style="color: white">Testimonials</h1>
+          <div class="row">
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 20rem; border-radius: 0">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/10.jpg"
+                    style="border-radius: 100px; height: 40px; width: 40px"
+                    class="card-img-top mb-3"
+                    alt="..."
+                  />
+                  <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                    "I have always been a fan of Dolphinstone designs. They have a way of making clothing that is both sophisticated and edgy, and I always feel like I'm making a statement when I wear their pieces."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 20rem; border-radius: 0">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/33.jpg"
+                    style="border-radius: 100px; height: 40px; width: 40px"
+                    class="card-img-top mb-3"
+                    alt="..."
+                  />
+                  <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                    "I recently attended a fashion show featuring Dolphinstone's collection, and I was blown away. Every piece was stunning and I couldn't wait to add some of them to my wardrobe."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 20rem; border-radius: 0">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/33.jpg "
+                    style="border-radius: 100px; height: 40px; width: 40px"
+                    class="card-img-top mb-3"
+                    alt="..."
+                  />
+                  <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                    "If you're looking for fashion that is high-quality, unique, and made with care, look no further than Dolphinstone. Their designs are truly one-of-a-kind."
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5 mb-3">
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 20rem; border-radius: 0">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/19.jpg"
+                    style="border-radius: 100px; height: 40px; width: 40px"
+                    class="card-img-top mb-3"
+                    alt="..."
+                  />
+                  <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                    "I have been following Dolphinstone on social media for a while now, and I love how they use their platform to promote body positivity and inclusivity in the fashion industry."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 20rem; border-radius: 0">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/22.jpg"
+                    style="border-radius: 100px; height: 40px; width: 40px"
+                    class="card-img-top mb-3"
+                    alt="..."
+                  />
+                  <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                    I have never felt more confident and beautiful than when wearing designs by Dolphinstone. Their attention to detail and unique aesthetic is truly unparalleled.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 20rem; border-radius: 0">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/21.jpg"
+                    style="border-radius: 100px; height: 40px; width: 40px"
+                    class="card-img-top mb-3"
+                    alt="..."
+                  />
+                  <p class="card-text" style="font-size: 12px; opacity: 0.9">
+                    If you're looking for fashion that is innovative, stylish, and sustainable, look no further than Dolphinstone. They are truly a trailblazer in the industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title ">About me</h2>
+        <div class="d-flex p-5">
+          <div class="row">
+            <h1 class="" style="font-size: 80px">Ranjana Rajput</h1>
+            <h2 style="font-size: 50px">Fashion Designer</h2>
+            <div class="col-lg-12 d-flex justify-content-center">
+              <div class="row d-flex">
+                <div class="col-lg-6 ">
+                  <p>
+                    I truly believe that fashion designers, we have this mindset of solving problems and looking at problems with a creative eye from other perspective. So, we need to use this power to really bring solutions that are much more impactful and meaningful than worrying about our artistic ego, about the next trend for the next season. And really think about how it can change, how the whole fashion industry
+operates.
+                  </p>
+                </div>
+                <div class="col-lg-6 ">
+                  <p>
+                    But today my aim is to accelerate the convergence of technology and fashion to help retailers, brands designers also solve complex design challenges while making a better future happen for people. And I am trying to see the world from what is becoming and not from what it is.
+                  </p>
+                  <a
+                    href="#portfolio"
+                    class="btn btn-dark d-flex justify-content-center"
+                    style="border-radius: 0"
+                    >View My Work</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-center ">
+            <div class="">
+              <img
+            
+              src="assets/img/cards/about me.JPG"
+              style="height: 400px"
+              class="float-start"
+              alt=""
+            />
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+
+      <!--==================== CERTIFICATIONS ====================
+            <section class="certification section" id="certifications">
+                <h2 class="section__title">Certifications</h2>
+                <span class="section__subtitle">Extra courses I have undertaken</span>
+
+                <div class="certification__container container grid">
+
+                    <!--==================== CERTIFICATION 1 ====================
+                    <div class="certification__content">
+                        <div>
+                            <img src="assets/img/certifications/freeCodeCamp.png" class="certification__img_1">
+                            <h4 class="certification__title">Responsive Web Design</h4>
+                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
+                        </div>
+
+                        <a class="button button--flex button--small button--link certification__button"
+                            href="https://freecodecamp.org/certification/yassine-rd/responsive-web-design" target="_blank">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== CERTIFICATION 2 ====================
+                    <div class="certification__content">
+                        <div>
+                            <img src="assets/img/certifications/cognitiveClass.png" class="certification__img">
+                            <h4 class="certification__title">Python 101 for Data Science</h4>
+                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
+                        </div>
+
+                        <a class="button button--flex button--small button--link certification__button"
+                            href="https://courses.cognitiveclass.ai/certificates/8dac28d196f5437e83516be6fa217089"
+                            target="_blank">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== CERTIFICATION 3 ====================
+                    <div class="certification__content">
+                        <div>
+                            <img src="assets/img/certifications/coursera.png" class="certification__img">
+                            <h4 class="certification__title">What is Data Science?</h4>
+                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
+                        </div>
+
+                        <a class="button button--flex button--small button--link certification__button"
+                            href="https://coursera.org/verify/4XEWYXNPHBRK" target="_blank">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== CERTIFICATION 4 ====================
+                    <div class="certification__content">
+                        <div>
+                            <img src="assets/img/certifications/coursera.png" class="certification__img">
+                            <h4 class="certification__title">Tools for Data Science</h4>
+                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
+                        </div>
+
+                        <a class="button button--flex button--small button--link certification__button"
+                            href="https://coursera.org/verify/8B3X56CEJAMP" target="_blank">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+           <!--==================== PROJECTS ====================-
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Most recent work</span>
+
+                <div class="projects__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PROJECT 1 ====================
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/projects/project-1.png" alt="Bird Classifier project's image"
+                                class="projects__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Bird Classifier</h3>
+                                <p class="projects__description">
+                                    Using convolutional neural networks to build and train
+                                    a deep learning model for bird classification on photographs.
+                                </p>
+                                <a href="https://github.com/yassine-rd/bird_species_classification" target="_blank"
+                                    class="button button--flex button--small projects__button">
+                                    GitHub repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECT 2 ====================-
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/projects/project-2.png" alt="Portfolio Website project's image"
+                                class="projects__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Portfolio Website</h3>
+                                <p class="projects__description">
+                                    Building a responsive personal portfolio website adaptable
+                                    to all devices, with ui components and animated interactions.
+                                </p>
+                                <a href="https://github.com/yassine-rd/portfolio-website" target="_blank"
+                                    class="button button--flex button--small projects__button">
+                                    GitHub repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECT 3 ====================-
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/projects/project-3.png" alt="Classroom Manager project's image"
+                                class="projects__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Classroom Manager</h3>
+                                <p class="projects__description">
+                                    Developing a simple web application that help manage students in a class using Spring
+                                    Boot.
+                                    The frontend is built using Angular.
+                                </p>
+                                <a href="https://github.com/yassine-rd/classroom-manager" target="_blank"
+                                    class="button button--flex button--small projects__button">
+                                    GitHub repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECT 4 ====================-
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/projects/project-4.png" alt="Fish Detector project's image"
+                                class="projects__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Fish Detector</h3>
+                                <p class="projects__description">
+                                    Implementing YOLOv4 using the Darknet framework for tracking
+                                    and counting of 2 different fish species in an aquarium.
+                                </p>
+                                <a href="https://github.com/yassine-rd/fish-detector" target="_blank"
+                                    class="button button--flex button--small projects__button">
+                                    GitHub repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Adding arrows -
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+                    </div>
+
+                    <!-- Adding pagination -
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </section>
+
+         
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="bg-dark p-3" id="contact">
+        <h1 class="text-center text-light mt-4">Contact Me</h1>
+        <div class="p-5">
+          <div class="row">
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img src="assets/img/cards/about me.JPG" alt="" style="height: 400px;"/>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center flex-column">
+              <h1 class="text-light">Ranjana Rajput</h1>
+              <p class="text-light " >Fashion Designer</p>
+              <p class="text-light mt-4">Find me on</p>
+
+              <div class="mb-5">
+                
+                <div class="mb-5">
+                  <a href="https://instagram.com/dolphinstone1?igshid=YmMyMTA2M2Y=" style="text-decoration: none; color: white;">
+                    <i class="fa-2xl fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="mb-55">
+                  <a href="https://www.linkedin.com/in/ranjana-rajput-ab2122200" style="text-decoration: none; color: white;">
+                    <i class="fa-2xl fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+                <div class="mt-5">
+                  <a href="ranjana.rajput@nift.ac.in" style="text-decoration: none; color: white;">
+                    <i class="fa-solid fa-envelope-open fa-2xl"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <a href="assets/pdf/Rodani_CV.pdf" download="Rodani_CV.pdf" class="btn btn-light text-dark me-4" style="border-radius: 0;" >My CV</a>
+                <a href="assets/pdf/RANJANA RESUME.png" download="RANJANA RESUME.png" class="btn btn-light text-dark" style="border-radius: 0;">My Resume</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer bg-dark p-4">
+      
+
+        <p class="footer__copy text-light">Copyright &copy; 2023 | All right reserved</p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#home" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--==================== SCROLL REVEAL JS ====================-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+    <!--==================== FONTAWESOME ====================-->
+    <script
+      src="https://kit.fontawesome.com/b58a420f20.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
