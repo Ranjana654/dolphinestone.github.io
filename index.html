@@ -58,7 +58,7 @@
 
   <body>
     <!--==================== HEADER ====================-->
-    <header class="header bg-dark p-3 " id="header" >
+    <header class="header bg-dark p-2 " id="header" >
       <nav class="nav container ">
         
         <div class="nav__menu" id="nav-menu">
@@ -110,37 +110,42 @@
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
-      <section class=" section bg-dark mt-4" id="home" style="height: 100vh;">
-        <div class="container-fluid">
+      <section class=" section sectionvideo bg-dark " id="home" >
+        <div class="">
+          <h1 class="text-center text-light mainheading">Dolphinstone</h1>
           <div class=" row d-flex">
-            <div class="col-lg-4">
+            <div class="col-lg-4 d-flex justify-content-center flex-column">
+        
               <div
-                class="home__data ms-5 me-5 position-relative"
+              
+                class="home__data ms-5 me-5  "
                 style="z-index: 10"
               >
-              <div class="d-flex mt-5">
               
-              <p class="text-light mb-5" style="font-weight: 600; font-size: 12px; position: absolute; left: 280px; top: 100px;" >RANJAVA&nbsp;RAJPUT</p>
-              </p>
-              </div>
-                
+              <p class="hometext_paragraph text-light float-end">_RANJANA RAJPUT</p>
+              <span>
                 <h1
-                  class="home__title postitive-absolute  ms-5 text-light ms-auto float-end " style="position: absolute;
-                  left:350px; top:160px;"
-                >
+              class="  hometext_heading1  text-light float-end " 
+              >
+              
                   Recreating
                 </h1>
-                <h1 class="home__title text-light postitive-absolute float-end" style="position: absolute; top:250px; left:290px">
+              </span>
+              <span>
+                <h2 class=" hometext_heading2 text-light  float-end  " >
                   Fashion
-                </h1>
+                </h2>
+              </span>
+               
               </div>
             </div>
-            <div class="col-lg-8">
-              <div class="home__img mt-4" style="z-index: 0">
-                <video width="900" autoplay>
-                  <source src="assets/img/video/ffffff.mp4" type="video/mp4" />
+            <div class="col-lg-8 ">
+              <div class="videodiv" >
+                <video width="75%" height="500px" autoplay>
+                  <source src="assets/img/video/ffffff.mp4"  type="video/mp4" />
                 </video>
               </div>
+              
             </div>
           </div>
         </div>
@@ -359,7 +364,7 @@ playful designs that are both fashionable and functional.
         <div class="p-5">
           <h1 class="section__title mb-5" style="color: white">Testimonials</h1>
           <div class="row">
-            <div class="col-lg-4 d-flex justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-center mt-3">
               <div class="card" style="width: 20rem; border-radius: 0">
                 <div class="card-body text-center">
                   <img
@@ -374,7 +379,7 @@ playful designs that are both fashionable and functional.
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-center mt-3">
               <div class="card" style="width: 20rem; border-radius: 0">
                 <div class="card-body text-center">
                   <img
@@ -389,7 +394,7 @@ playful designs that are both fashionable and functional.
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-center mt-3">
               <div class="card" style="width: 20rem; border-radius: 0">
                 <div class="card-body text-center">
                   <img
@@ -406,8 +411,8 @@ playful designs that are both fashionable and functional.
               </div>
             </div>
           </div>
-          <div class="row mt-5 mb-3">
-            <div class="col-lg-4 d-flex justify-content-center">
+          <div class="row  ">
+            <div class="col-lg-4 d-flex justify-content-center mt-3">
               <div class="card" style="width: 20rem; border-radius: 0">
                 <div class="card-body text-center">
                   <img
@@ -422,7 +427,7 @@ playful designs that are both fashionable and functional.
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-center mt-3">
               <div class="card" style="width: 20rem; border-radius: 0">
                 <div class="card-body text-center">
                   <img
@@ -437,7 +442,7 @@ playful designs that are both fashionable and functional.
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-center mt-3">
               <div class="card" style="width: 20rem; border-radius: 0">
                 <div class="card-body text-center">
                   <img
@@ -486,11 +491,12 @@ operates.
             </div>
           </div>
           <div class="col-lg-6 d-flex justify-content-center ">
-            <div class="">
+            <div class="p-5">
               <img
-            
+             
+              class="img-thumbnail"
               src="assets/img/cards/about me.JPG"
-              style="height: 400px"
+              
               class="float-start"
               alt=""
             />
@@ -719,9 +725,7 @@ operates.
     </footer>
 
     <!--==================== SCROLL TOP ====================-->
-    <a href="#home" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+   
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
